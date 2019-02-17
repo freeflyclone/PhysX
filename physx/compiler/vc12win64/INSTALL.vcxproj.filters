@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\e0811b1d18915e777b9f1e3cddf0fbbb\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{72752D05-8FFD-3671-AC7E-B32E572B1D76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

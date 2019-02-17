@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="debug|x64">
+      <Configuration>debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="checked|x64">
+      <Configuration>checked</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="profile|x64">
+      <Configuration>profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|x64">
+      <Configuration>release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E2741EC2-F38E-38B1-B979-1FC6281B6AED}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='checked|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='checked|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='profile|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='checked|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evan\src\PhysX4\physx\compiler\public\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule C:/Users/evan/src/PhysX4/physx/compiler/public/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Users/evan/src/PhysX4/physx/compiler/public -BC:/Users/evan/src/PhysX4/physx/compiler/vc12win64 --check-stamp-file C:/Users/evan/src/PhysX4/physx/compiler/vc12win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">C:/Users/evan/src/PhysX4/physx/compiler/public/CMakeLists.txt;C:\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;C:\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;C:\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeRCCompiler.cmake.in;C:\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;C:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Users\evan\src\PhysX4\physx\compiler\public\CMakeLists.txt;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\3.13.4\CMakeCCompiler.cmake;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\3.13.4\CMakeCXXCompiler.cmake;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\3.13.4\CMakeRCCompiler.cmake;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\3.13.4\CMakeSystem.cmake;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\feature_tests.c;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\feature_tests.cxx;C:\Users\evan\src\PhysX4\physx\compiler\public\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule C:/Users/evan/src/PhysX4/physx/compiler/public/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='checked|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Users/evan/src/PhysX4/physx/compiler/public -BC:/Users/evan/src/PhysX4/physx/compiler/vc12win64 --check-stamp-file C:/Users/evan/src/PhysX4/physx/compiler/vc12win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">C:/Users/evan/src/PhysX4/physx/compiler/public/CMakeLists.txt;C:\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;C:\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;C:\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeRCCompiler.cmake.in;C:\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;C:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Users\evan\src\PhysX4\physx\compiler\public\CMakeLists.txt;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\3.13.4\CMakeCCompiler.cmake;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\3.13.4\CMakeCXXCompiler.cmake;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\3.13.4\CMakeRCCompiler.cmake;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\3.13.4\CMakeSystem.cmake;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\feature_tests.c;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\feature_tests.cxx;C:\Users\evan\src\PhysX4\physx\compiler\public\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule C:/Users/evan/src/PhysX4/physx/compiler/public/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='profile|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Users/evan/src/PhysX4/physx/compiler/public -BC:/Users/evan/src/PhysX4/physx/compiler/vc12win64 --check-stamp-file C:/Users/evan/src/PhysX4/physx/compiler/vc12win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">C:/Users/evan/src/PhysX4/physx/compiler/public/CMakeLists.txt;C:\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;C:\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;C:\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeRCCompiler.cmake.in;C:\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;C:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Users\evan\src\PhysX4\physx\compiler\public\CMakeLists.txt;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\3.13.4\CMakeCCompiler.cmake;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\3.13.4\CMakeCXXCompiler.cmake;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\3.13.4\CMakeRCCompiler.cmake;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\3.13.4\CMakeSystem.cmake;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\feature_tests.c;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\feature_tests.cxx;C:\Users\evan\src\PhysX4\physx\compiler\public\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule C:/Users/evan/src/PhysX4/physx/compiler/public/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
+C:\CMake\bin\cmake.exe -SC:/Users/evan/src/PhysX4/physx/compiler/public -BC:/Users/evan/src/PhysX4/physx/compiler/vc12win64 --check-stamp-file C:/Users/evan/src/PhysX4/physx/compiler/vc12win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">C:/Users/evan/src/PhysX4/physx/compiler/public/CMakeLists.txt;C:\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;C:\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;C:\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeRCCompiler.cmake.in;C:\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;C:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.13\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Users\evan\src\PhysX4\physx\compiler\public\CMakeLists.txt;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\3.13.4\CMakeCCompiler.cmake;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\3.13.4\CMakeCXXCompiler.cmake;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\3.13.4\CMakeRCCompiler.cmake;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\3.13.4\CMakeSystem.cmake;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\feature_tests.c;C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\feature_tests.cxx;C:\Users\evan\src\PhysX4\physx\compiler\public\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\ZERO_CHECK.vcxproj">
+      <Project>{7D13F624-8335-39BD-98C9-BD40C3FC106C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_source_bin\FastXml.vcxproj">
+      <Project>{7549B6BC-E75E-3B4F-95BD-EB40781A46CD}</Project>
+      <Name>FastXml</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_source_bin\LowLevel.vcxproj">
+      <Project>{66C3E408-1666-35AD-BF47-0507C150E026}</Project>
+      <Name>LowLevel</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_source_bin\LowLevelAABB.vcxproj">
+      <Project>{1CA0B0AE-B17F-3AA5-9B75-916B370EFA0F}</Project>
+      <Name>LowLevelAABB</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_source_bin\LowLevelDynamics.vcxproj">
+      <Project>{45802E95-2F9E-393D-BDE5-50FD50870098}</Project>
+      <Name>LowLevelDynamics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_source_bin\PhysX.vcxproj">
+      <Project>{B6204FE3-4658-374B-BC87-135DF4A06D77}</Project>
+      <Name>PhysX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_source_bin\PhysXCharacterKinematic.vcxproj">
+      <Project>{677780C6-0DF5-3986-9FA7-6B478611947B}</Project>
+      <Name>PhysXCharacterKinematic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_source_bin\PhysXCommon.vcxproj">
+      <Project>{9F5560C1-69EB-31CE-A7C4-A0EDE19EEB09}</Project>
+      <Name>PhysXCommon</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_source_bin\PhysXCooking.vcxproj">
+      <Project>{037DC7E2-403B-3ACD-88A2-3DF2EA474770}</Project>
+      <Name>PhysXCooking</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_source_bin\PhysXExtensions.vcxproj">
+      <Project>{9625044E-CD50-3EA1-8BAD-E513CF0A87B9}</Project>
+      <Name>PhysXExtensions</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_source_bin\PhysXFoundation.vcxproj">
+      <Project>{4F76BCA4-79C8-3626-BFB3-790C41837F27}</Project>
+      <Name>PhysXFoundation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_source_bin\PhysXPvdSDK.vcxproj">
+      <Project>{EC83D540-0984-39B7-B9D9-63EC5E91711E}</Project>
+      <Name>PhysXPvdSDK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_source_bin\PhysXTask.vcxproj">
+      <Project>{0B0F6B4C-2042-3620-886D-20FBF0D89000}</Project>
+      <Name>PhysXTask</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_source_bin\PhysXVehicle.vcxproj">
+      <Project>{26ADE76E-888E-3DB7-948E-9FE02ADC66AE}</Project>
+      <Name>PhysXVehicle</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_samples_bin\SampleBase.vcxproj">
+      <Project>{3B1A37A2-15CA-366E-A7E3-96D1E1CAE8B4}</Project>
+      <Name>SampleBase</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_samples_bin\SampleFramework.vcxproj">
+      <Project>{24273501-76E6-39BA-B88B-C4F8C9B4FF1C}</Project>
+      <Name>SampleFramework</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_samples_bin\SamplePlatform.vcxproj">
+      <Project>{F7D9E13A-8B4E-3EB4-BE7D-101742218196}</Project>
+      <Name>SamplePlatform</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_samples_bin\SampleRenderer.vcxproj">
+      <Project>{E3BBF7B3-6437-3F6F-BA46-BC43DE500F46}</Project>
+      <Name>SampleRenderer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_samples_bin\SampleToolkit.vcxproj">
+      <Project>{86F6131D-183C-3D4F-82FC-E779CE9740A3}</Project>
+      <Name>SampleToolkit</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_samples_bin\Samples.vcxproj">
+      <Project>{4F10FBF1-E65E-3DB5-994B-FEE9D71C1765}</Project>
+      <Name>Samples</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_source_bin\SceneQuery.vcxproj">
+      <Project>{D550AF7E-3EC7-386A-A0E3-367F7E206763}</Project>
+      <Name>SceneQuery</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_source_bin\SimulationController.vcxproj">
+      <Project>{851C0795-03C6-310C-9062-366920DE3591}</Project>
+      <Name>SimulationController</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetArticulation.vcxproj">
+      <Project>{7496485A-3429-34F0-A9C6-E875D6ECBD35}</Project>
+      <Name>SnippetArticulation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetBVHStructure.vcxproj">
+      <Project>{03B4C8CD-D70A-3235-80D4-CAC45E918EFB}</Project>
+      <Name>SnippetBVHStructure</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetContactModification.vcxproj">
+      <Project>{75085E7A-863E-3A48-A0BB-9A1C6D7A27BB}</Project>
+      <Name>SnippetContactModification</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetContactReport.vcxproj">
+      <Project>{1ABB36E7-B799-38D4-9620-C13BF7059AF0}</Project>
+      <Name>SnippetContactReport</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetContactReportCCD.vcxproj">
+      <Project>{0DB939D5-06B9-33D4-9355-CE24C6C54A6B}</Project>
+      <Name>SnippetContactReportCCD</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetConvert.vcxproj">
+      <Project>{38CD30CD-CAE2-3A1E-B44A-E923CE2B6D48}</Project>
+      <Name>SnippetConvert</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetConvexMeshCreate.vcxproj">
+      <Project>{C7558B8F-B897-3AA1-B93F-FD1C4C6D5EAC}</Project>
+      <Name>SnippetConvexMeshCreate</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetCustomJoint.vcxproj">
+      <Project>{03AC4CB5-159A-37B6-B1E4-458933C323E0}</Project>
+      <Name>SnippetCustomJoint</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetCustomProfiler.vcxproj">
+      <Project>{8B7493EE-E37C-39C4-B48F-DF30F4F51A1A}</Project>
+      <Name>SnippetCustomProfiler</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetDeformableMesh.vcxproj">
+      <Project>{5BE3A9F8-5381-3BDE-AB94-1EEA156ADDD3}</Project>
+      <Name>SnippetDeformableMesh</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetDelayLoadHook.vcxproj">
+      <Project>{4DD3067B-073A-3628-8A43-1FB89B9D0A38}</Project>
+      <Name>SnippetDelayLoadHook</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetHelloGRB.vcxproj">
+      <Project>{C6402046-CF38-3D21-8A83-5BC846DFEF33}</Project>
+      <Name>SnippetHelloGRB</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetHelloWorld.vcxproj">
+      <Project>{5419A9F7-6632-33BB-9CD1-76A55B1E545F}</Project>
+      <Name>SnippetHelloWorld</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetImmediateMode.vcxproj">
+      <Project>{F8F14BFE-05E9-3AF6-945F-CADE50F38321}</Project>
+      <Name>SnippetImmediateMode</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetJoint.vcxproj">
+      <Project>{8D9DB694-1DAC-3F61-83C4-B1BF0B0B270C}</Project>
+      <Name>SnippetJoint</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetLoadCollection.vcxproj">
+      <Project>{CB5D065D-35E9-3B5D-9FB0-391D7F5B4345}</Project>
+      <Name>SnippetLoadCollection</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetMBP.vcxproj">
+      <Project>{4733ED5E-92A1-37F0-BA86-3BC0630B2EAE}</Project>
+      <Name>SnippetMBP</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetMultiThreading.vcxproj">
+      <Project>{484C8095-D55F-33C9-A4BF-D913411D67E3}</Project>
+      <Name>SnippetMultiThreading</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetNestedScene.vcxproj">
+      <Project>{30D3FE49-C6F1-3680-B011-945BFC96413E}</Project>
+      <Name>SnippetNestedScene</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetPrunerSerialization.vcxproj">
+      <Project>{1DE7106A-8A9A-34E5-8D5B-ED56C8AAE501}</Project>
+      <Name>SnippetPrunerSerialization</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetRaycastCCD.vcxproj">
+      <Project>{83F5972B-E9A7-3B7B-B800-BD96BBC4D8C4}</Project>
+      <Name>SnippetRaycastCCD</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetRender.vcxproj">
+      <Project>{3096E616-DB2F-3653-A9D5-BF11321B197A}</Project>
+      <Name>SnippetRender</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetSerialization.vcxproj">
+      <Project>{8727C296-3DDF-34D6-8C9C-59273A51700A}</Project>
+      <Name>SnippetSerialization</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetSplitFetchResults.vcxproj">
+      <Project>{392E7D4F-80A1-3919-8F77-8F6281F6B850}</Project>
+      <Name>SnippetSplitFetchResults</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetSplitSim.vcxproj">
+      <Project>{0A222057-1268-3543-A300-92E3CFF84352}</Project>
+      <Name>SnippetSplitSim</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetStepper.vcxproj">
+      <Project>{58C11BAC-7119-321F-AEFA-D017F6EB45A8}</Project>
+      <Name>SnippetStepper</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetToleranceScale.vcxproj">
+      <Project>{E2E19A8B-7974-34D4-BB07-EACEBD77C32A}</Project>
+      <Name>SnippetToleranceScale</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetTriangleMeshCreate.vcxproj">
+      <Project>{480AB5EE-72AC-3E62-87AD-D1BAE5CAD492}</Project>
+      <Name>SnippetTriangleMeshCreate</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetUtils.vcxproj">
+      <Project>{2C2B2BA2-D608-3F5A-B7A6-37F41330D6ED}</Project>
+      <Name>SnippetUtils</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetVehicle4W.vcxproj">
+      <Project>{B6AA432A-3D00-3689-AB5C-69E2D9385C76}</Project>
+      <Name>SnippetVehicle4W</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetVehicleContactMod.vcxproj">
+      <Project>{B94CF590-FC2C-376E-B729-DFA4964EE2B9}</Project>
+      <Name>SnippetVehicleContactMod</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetVehicleMultiThreading.vcxproj">
+      <Project>{B6E17E91-5C35-39BF-B78E-42026B95CC9D}</Project>
+      <Name>SnippetVehicleMultiThreading</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetVehicleNoDrive.vcxproj">
+      <Project>{44E0932F-BF91-3A0F-950C-56AE4AE5908C}</Project>
+      <Name>SnippetVehicleNoDrive</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetVehicleScale.vcxproj">
+      <Project>{5175522E-C35A-3866-A5C2-DAF9943AE107}</Project>
+      <Name>SnippetVehicleScale</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc12win64\sdk_snippets_bin\SnippetVehicleTank.vcxproj">
+      <Project>{5A196135-28E5-3221-9072-A17015C8CCE4}</Project>
+      <Name>SnippetVehicleTank</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

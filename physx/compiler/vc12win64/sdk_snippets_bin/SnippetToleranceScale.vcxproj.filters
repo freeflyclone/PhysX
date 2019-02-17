@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\snippets\snippetcommon\ClassicMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\snippets\snippettolerancescale\SnippetToleranceScale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\snippets\snippetcommon\SnippetPrint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\snippets\snippetcommon\SnippetPVD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evan\src\PhysX4\physx\snippets\compiler\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF10347E-C689-3FEA-8A6C-F22CCBD59B58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9A793A08-56C0-375C-9CE7-862E0D62154C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

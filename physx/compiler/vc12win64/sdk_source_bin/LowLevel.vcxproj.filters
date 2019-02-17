@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\api\src\px_globals.cpp">
+      <Filter>API Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\src\collision\PxcContact.cpp">
+      <Filter>Common Source\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\src\pipeline\PxcContactCache.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\src\pipeline\PxcContactMethodImpl.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\src\pipeline\PxcMaterialHeightField.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\src\pipeline\PxcMaterialMesh.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\src\pipeline\PxcMaterialMethodImpl.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\src\pipeline\PxcMaterialShape.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\src\pipeline\PxcNpBatch.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\src\pipeline\PxcNpCacheStreamPair.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\src\pipeline\PxcNpContactPrepShared.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\src\pipeline\PxcNpMemBlockPool.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\src\pipeline\PxcNpThreadContext.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\src\PxsCCD.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\src\PxsContactManager.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\src\PxsContext.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\src\PxsDefaultMemoryManager.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\src\PxsIslandSim.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\src\PxsMaterialCombiner.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\src\PxsNphaseImplementationContext.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\src\PxsSimpleIslandManager.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\api\include\PxsMaterialCore.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\api\include\PxsMaterialManager.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\api\include\PxvConfig.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\api\include\PxvDynamics.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\api\include\PxvGeometry.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\api\include\PxvGlobals.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\api\include\PxvManager.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\api\include\PxvSimStats.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\include\collision\PxcContactMethodImpl.h">
+      <Filter>Common Includes\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\include\pipeline\PxcConstraintBlockStream.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\include\pipeline\PxcContactCache.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\include\pipeline\PxcMaterialMethodImpl.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\include\pipeline\PxcNpBatch.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\include\pipeline\PxcNpCache.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\include\pipeline\PxcNpCacheStreamPair.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\include\pipeline\PxcNpContactPrepShared.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\include\pipeline\PxcNpMemBlockPool.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\include\pipeline\PxcNpThreadContext.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\include\pipeline\PxcNpWorkUnit.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\include\pipeline\PxcRigidBody.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\include\utils\PxcScratchAllocator.h">
+      <Filter>Common Includes\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\common\include\utils\PxcThreadCoherentCache.h">
+      <Filter>Common Includes\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsBodySim.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsCCD.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsContactManager.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsContactManagerState.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsContext.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsDefaultMemoryManager.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsHeapMemoryAllocator.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsIncrementalConstraintPartitioning.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsIslandManagerTypes.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsIslandSim.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsIslandNodeIndex.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsKernelWrangler.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsMaterialCombiner.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsMemoryManager.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsNphaseImplementationContext.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsRigidBody.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsShapeSim.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsSimpleIslandManager.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsSimulationController.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxsTransformCache.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\lowlevel\software\include\PxvNphaseImplementationContext.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\evan\src\PhysX4\physx\source\compiler\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="API Includes">
+      <UniqueIdentifier>{879A9462-537F-3914-86B5-96D61FE863C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API Source">
+      <UniqueIdentifier>{B674D05B-3AF5-3B65-A229-6825A026E7DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Includes">
+      <UniqueIdentifier>{1381A37B-3CC3-345B-9DEE-D7B8DA599214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Includes\collision">
+      <UniqueIdentifier>{95C26622-89BD-3943-A758-96BE2C28A24A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Includes\pipeline">
+      <UniqueIdentifier>{976A1AA8-AE73-39DE-8047-742DADD41925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Includes\utils">
+      <UniqueIdentifier>{4A0D2E63-36BD-3A6C-A362-D2C2AB2D10B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Source">
+      <UniqueIdentifier>{F7ADF396-3CA2-3CEA-A19F-905A4F67D693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Source\collision">
+      <UniqueIdentifier>{E5E1B422-D045-34A6-9F58-F88F86286E90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Source\pipeline">
+      <UniqueIdentifier>{E66692BF-EBC1-3EB1-B08B-277280078297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Software Includes">
+      <UniqueIdentifier>{1EA7CA9C-59BA-34E9-96B2-9231E4C67552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Software Source">
+      <UniqueIdentifier>{BDDCC95C-23AE-33C3-B51C-1778A7051C7B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
