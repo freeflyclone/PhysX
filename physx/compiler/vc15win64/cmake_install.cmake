@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/evan/src/PhysX4/physx/compiler/public
+# Install script for directory: C:/src/PhysX4/physx/compiler/public
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/evan/src/PhysX4/physx/install/vc15win64/PhysX")
+  set(CMAKE_INSTALL_PREFIX "C:/src/PhysX4/physx/install/vc15win64/PhysX")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/evan/src/PhysX4/physx/compiler/vc15win64/sdk_source_bin/cmake_install.cmake")
-  include("C:/Users/evan/src/PhysX4/physx/compiler/vc15win64/sdk_snippets_bin/cmake_install.cmake")
-  include("C:/Users/evan/src/PhysX4/physx/compiler/vc15win64/sdk_samples_bin/cmake_install.cmake")
+  include("C:/src/PhysX4/physx/compiler/vc15win64/sdk_source_bin/cmake_install.cmake")
+  include("C:/src/PhysX4/physx/compiler/vc15win64/sdk_snippets_bin/cmake_install.cmake")
+  include("C:/src/PhysX4/physx/compiler/vc15win64/sdk_samples_bin/cmake_install.cmake")
 
 endif()
 
@@ -48,5 +48,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/evan/src/PhysX4/physx/compiler/vc15win64/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/src/PhysX4/physx/compiler/vc15win64/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

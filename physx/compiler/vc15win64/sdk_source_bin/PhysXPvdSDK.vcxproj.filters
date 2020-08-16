@@ -1,243 +1,243 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileEventImpl.cpp">
+    <ClCompile Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileEventImpl.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvd.cpp">
+    <ClCompile Include="C:\src\PhysX4\physx\source\pvd\src\PxPvd.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdDataStream.cpp">
+    <ClCompile Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdDataStream.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdDefaultFileTransport.cpp">
+    <ClCompile Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdDefaultFileTransport.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdDefaultSocketTransport.cpp">
+    <ClCompile Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdDefaultSocketTransport.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdImpl.cpp">
+    <ClCompile Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdImpl.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdMemClient.cpp">
+    <ClCompile Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdMemClient.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdObjectModelMetaData.cpp">
+    <ClCompile Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdObjectModelMetaData.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdObjectRegistrar.cpp">
+    <ClCompile Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdObjectRegistrar.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdProfileZoneClient.cpp">
+    <ClCompile Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdProfileZoneClient.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdUserRenderer.cpp">
+    <ClCompile Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdUserRenderer.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\include\pvd\PxPvd.h">
+    <ClInclude Include="C:\src\PhysX4\physx\include\pvd\PxPvd.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\include\pvd\PxPvdTransport.h">
+    <ClInclude Include="C:\src\PhysX4\physx\include\pvd\PxPvdTransport.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\filebuf\include\PsAsciiConversion.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\filebuf\include\PsAsciiConversion.h">
       <Filter>filebuf\include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\filebuf\include\PsAsciiConversion.inl">
+    <ClInclude Include="C:\src\PhysX4\physx\source\filebuf\include\PsAsciiConversion.inl">
       <Filter>filebuf\include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\filebuf\include\PsFileBuffer.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\filebuf\include\PsFileBuffer.h">
       <Filter>filebuf\include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\filebuf\include\PsIOStream.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\filebuf\include\PsIOStream.h">
       <Filter>filebuf\include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\filebuf\include\PsIOStream.inl">
+    <ClInclude Include="C:\src\PhysX4\physx\source\filebuf\include\PsIOStream.inl">
       <Filter>filebuf\include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\filebuf\include\PsMemoryBuffer.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\filebuf\include\PsMemoryBuffer.h">
       <Filter>filebuf\include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\include\PsPvd.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\include\PsPvd.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\include\PxProfileAllocatorWrapper.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\include\PxProfileAllocatorWrapper.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\include\PxPvdClient.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\include\PxPvdClient.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\include\PxPvdDataStream.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\include\PxPvdDataStream.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\include\PxPvdDataStreamHelpers.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\include\PxPvdDataStreamHelpers.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\include\PxPvdErrorCodes.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\include\PxPvdErrorCodes.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\include\PxPvdObjectModelBaseTypes.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\include\PxPvdObjectModelBaseTypes.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\include\PxPvdRenderBuffer.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\include\PxPvdRenderBuffer.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\include\PxPvdUserRenderer.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\include\PxPvdUserRenderer.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileContextProvider.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileContextProvider.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileContextProviderImpl.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileContextProviderImpl.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileDataBuffer.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileDataBuffer.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileDataParsing.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileDataParsing.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileEventBuffer.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileEventBuffer.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileEventBufferAtomic.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileEventBufferAtomic.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileEventBufferClient.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileEventBufferClient.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileEventBufferClientManager.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileEventBufferClientManager.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileEventId.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileEventId.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileEventMutex.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileEventMutex.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileEventNames.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileEventNames.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileEvents.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileEvents.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileEventSender.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileEventSender.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileEventSerialization.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileEventSerialization.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileMemory.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileMemory.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileMemoryBuffer.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileMemoryBuffer.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileMemoryEventBuffer.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileMemoryEventBuffer.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileMemoryEvents.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileMemoryEvents.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileScopedEvent.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileScopedEvent.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileScopedMutexLock.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileScopedMutexLock.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdProfileZone.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdProfileZone.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileZoneImpl.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileZoneImpl.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileZoneManager.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileZoneManager.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxProfileZoneManagerImpl.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxProfileZoneManagerImpl.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdBits.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdBits.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdByteStreams.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdByteStreams.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdCommStreamEvents.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdCommStreamEvents.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdCommStreamEventSink.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdCommStreamEventSink.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdCommStreamTypes.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdCommStreamTypes.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdDefaultFileTransport.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdDefaultFileTransport.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdDefaultSocketTransport.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdDefaultSocketTransport.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdFoundation.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdFoundation.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdImpl.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdImpl.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdInternalByteStreams.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdInternalByteStreams.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdMarshalling.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdMarshalling.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdMemClient.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdMemClient.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdObjectModelInternalTypeDefs.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdObjectModelInternalTypeDefs.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdObjectModelInternalTypes.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdObjectModelInternalTypes.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdObjectModelMetaData.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdObjectModelMetaData.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdObjectRegistrar.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdObjectRegistrar.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdProfileZoneClient.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdProfileZoneClient.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdUserRenderImpl.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdUserRenderImpl.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\source\pvd\src\PxPvdUserRenderTypes.h">
+    <ClInclude Include="C:\src\PhysX4\physx\source\pvd\src\PxPvdUserRenderTypes.h">
       <Filter>src\src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\evan\src\PhysX4\physx\source\compiler\cmake\CMakeLists.txt" />
+    <CustomBuild Include="C:\src\PhysX4\physx\source\compiler\cmake\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="filebuf">
-      <UniqueIdentifier>{CE924145-0B2B-38BE-BB60-64A470A821D1}</UniqueIdentifier>
+      <UniqueIdentifier>{DB0B9E54-6CB8-385F-AF64-CA30CB3E0FBA}</UniqueIdentifier>
     </Filter>
     <Filter Include="filebuf\include">
-      <UniqueIdentifier>{FBF2FB06-D961-34C8-851F-CAFC8F372783}</UniqueIdentifier>
+      <UniqueIdentifier>{2E5F22C4-933A-3F2A-A698-0497AD2F54A6}</UniqueIdentifier>
     </Filter>
     <Filter Include="include">
-      <UniqueIdentifier>{D68437EC-B2B4-3010-8684-8CBF9F7E9EC5}</UniqueIdentifier>
+      <UniqueIdentifier>{9F99CE05-2586-399F-8170-DE8374FED581}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{5911E6ED-5D57-354F-B14D-7CFC2AD73A8D}</UniqueIdentifier>
+      <UniqueIdentifier>{C6FA4B49-9768-37DA-874B-7C6F8A6BFADA}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\include">
-      <UniqueIdentifier>{5345B6D1-91B9-3FCA-8D3E-101E061515DC}</UniqueIdentifier>
+      <UniqueIdentifier>{41057F9C-55FA-3BB2-94DE-3B15ABEFA21D}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\src">
-      <UniqueIdentifier>{DEC8EC84-9557-381A-B4B1-3F1FD3A66556}</UniqueIdentifier>
+      <UniqueIdentifier>{ED757961-AD4D-390F-BC1E-B74CB412EDAC}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,57 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\samples\pxtoolkit\src\PxTkBmpLoader.cpp">
+    <ClCompile Include="C:\src\PhysX4\physx\samples\pxtoolkit\src\PxTkBmpLoader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\samples\pxtoolkit\src\PxTkFPS.cpp">
+    <ClCompile Include="C:\src\PhysX4\physx\samples\pxtoolkit\src\PxTkFPS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\samples\pxtoolkit\src\PxTkMatrixUtils.cpp">
+    <ClCompile Include="C:\src\PhysX4\physx\samples\pxtoolkit\src\PxTkMatrixUtils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\samples\pxtoolkit\src\PxTkRandom.cpp">
+    <ClCompile Include="C:\src\PhysX4\physx\samples\pxtoolkit\src\PxTkRandom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\evan\src\PhysX4\physx\samples\pxtoolkit\src\PxTkStream.cpp">
+    <ClCompile Include="C:\src\PhysX4\physx\samples\pxtoolkit\src\PxTkStream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\samples\pxtoolkit\include\PxTkBmpLoader.h">
+    <ClInclude Include="C:\src\PhysX4\physx\samples\pxtoolkit\include\PxTkBmpLoader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\samples\pxtoolkit\include\PxTkFile.h">
+    <ClInclude Include="C:\src\PhysX4\physx\samples\pxtoolkit\include\PxTkFile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\samples\pxtoolkit\include\PxTkFPS.h">
+    <ClInclude Include="C:\src\PhysX4\physx\samples\pxtoolkit\include\PxTkFPS.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\samples\pxtoolkit\include\PxTkMatrixUtils.h">
+    <ClInclude Include="C:\src\PhysX4\physx\samples\pxtoolkit\include\PxTkMatrixUtils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\samples\pxtoolkit\include\PxTkNamespaceMangle.h">
+    <ClInclude Include="C:\src\PhysX4\physx\samples\pxtoolkit\include\PxTkNamespaceMangle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\samples\pxtoolkit\include\PxTkRandom.h">
+    <ClInclude Include="C:\src\PhysX4\physx\samples\pxtoolkit\include\PxTkRandom.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\samples\pxtoolkit\include\PxTkStream.h">
+    <ClInclude Include="C:\src\PhysX4\physx\samples\pxtoolkit\include\PxTkStream.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\evan\src\PhysX4\physx\samples\pxtoolkit\include\PxToolkit.h">
+    <ClInclude Include="C:\src\PhysX4\physx\samples\pxtoolkit\include\PxToolkit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\CMakeLists.txt" />
+    <CustomBuild Include="C:\src\PhysX4\physx\samples\compiler\cmake\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{5AD3028C-52D0-36E5-B4AA-A4ED081CED8A}</UniqueIdentifier>
+      <UniqueIdentifier>{DDC288AB-53B4-3737-A71A-A8A775E86CFF}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{1551517B-9B0F-3068-B7D1-A177BEDABBF0}</UniqueIdentifier>
+      <UniqueIdentifier>{94CD7956-57C7-3F22-A414-5B127D301C46}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

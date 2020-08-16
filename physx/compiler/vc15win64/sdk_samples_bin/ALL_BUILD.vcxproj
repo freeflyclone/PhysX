@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2CE8A243-B83D-3605-9723-5440B65E6160}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{745311C5-AE52-3429-87E6-066610F5254D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -102,10 +102,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule C:/Users/evan/src/PhysX4/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\src\PhysX4\physx\samples\compiler\cmake\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule C:/src/PhysX4/physx/samples/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
-C:\CMake\bin\cmake.exe -SC:/Users/evan/src/PhysX4/physx/compiler/public -BC:/Users/evan/src/PhysX4/physx/compiler/vc15win64 --check-stamp-file C:/Users/evan/src/PhysX4/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/src/PhysX4/physx/compiler/public -BC:/src/PhysX4/physx/compiler/vc15win64 --check-stamp-file C:/src/PhysX4/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -113,12 +113,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">C:/Users/evan/src/PhysX4/physx/samples/compiler/cmake/CMakeLists.txt;C:\Users\evan\src\PhysX4\externals\cmakemodules\ConfigureFileMT.cmake;C:\Users\evan\src\PhysX4\externals\cmakemodules\GetCompilerAndPlatform.cmake;C:\Users\evan\src\PhysX4\externals\cmakemodules\NvidiaBuildOptions.cmake;C:\Users\evan\src\PhysX4\externals\cmakemodules\SetOutputPaths.cmake;C:\Users\evan\src\PhysX4\externals\targa\targa-config-version.cmake;C:\Users\evan\src\PhysX4\externals\targa\targa-config.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\CMakeLists.txt;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SampleBase.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SampleFramework.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SamplePlatform.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SampleRenderer.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\Samples.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SamplesToolkit.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\CMakeLists.txt;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SampleBase.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SampleFramework.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\Samples.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">C:\Users\evan\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">C:\src\PhysX4\externals\cmakemodules\ConfigureFileMT.cmake;C:\src\PhysX4\externals\cmakemodules\GetCompilerAndPlatform.cmake;C:\src\PhysX4\externals\cmakemodules\NvidiaBuildOptions.cmake;C:\src\PhysX4\externals\cmakemodules\SetOutputPaths.cmake;C:\src\PhysX4\externals\targa\targa-config-version.cmake;C:\src\PhysX4\externals\targa\targa-config.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SampleBase.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SampleFramework.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SamplePlatform.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SampleRenderer.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\Samples.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SamplesToolkit.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\CMakeLists.txt;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SampleBase.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SampleFramework.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\Samples.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">C:\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule C:/Users/evan/src/PhysX4/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule C:/src/PhysX4/physx/samples/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='checked|x64'">setlocal
-C:\CMake\bin\cmake.exe -SC:/Users/evan/src/PhysX4/physx/compiler/public -BC:/Users/evan/src/PhysX4/physx/compiler/vc15win64 --check-stamp-file C:/Users/evan/src/PhysX4/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/src/PhysX4/physx/compiler/public -BC:/src/PhysX4/physx/compiler/vc15win64 --check-stamp-file C:/src/PhysX4/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -126,12 +126,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">C:/Users/evan/src/PhysX4/physx/samples/compiler/cmake/CMakeLists.txt;C:\Users\evan\src\PhysX4\externals\cmakemodules\ConfigureFileMT.cmake;C:\Users\evan\src\PhysX4\externals\cmakemodules\GetCompilerAndPlatform.cmake;C:\Users\evan\src\PhysX4\externals\cmakemodules\NvidiaBuildOptions.cmake;C:\Users\evan\src\PhysX4\externals\cmakemodules\SetOutputPaths.cmake;C:\Users\evan\src\PhysX4\externals\targa\targa-config-version.cmake;C:\Users\evan\src\PhysX4\externals\targa\targa-config.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\CMakeLists.txt;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SampleBase.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SampleFramework.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SamplePlatform.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SampleRenderer.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\Samples.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SamplesToolkit.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\CMakeLists.txt;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SampleBase.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SampleFramework.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\Samples.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">C:\Users\evan\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">C:\src\PhysX4\externals\cmakemodules\ConfigureFileMT.cmake;C:\src\PhysX4\externals\cmakemodules\GetCompilerAndPlatform.cmake;C:\src\PhysX4\externals\cmakemodules\NvidiaBuildOptions.cmake;C:\src\PhysX4\externals\cmakemodules\SetOutputPaths.cmake;C:\src\PhysX4\externals\targa\targa-config-version.cmake;C:\src\PhysX4\externals\targa\targa-config.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SampleBase.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SampleFramework.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SamplePlatform.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SampleRenderer.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\Samples.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SamplesToolkit.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\CMakeLists.txt;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SampleBase.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SampleFramework.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\Samples.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">C:\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule C:/Users/evan/src/PhysX4/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule C:/src/PhysX4/physx/samples/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='profile|x64'">setlocal
-C:\CMake\bin\cmake.exe -SC:/Users/evan/src/PhysX4/physx/compiler/public -BC:/Users/evan/src/PhysX4/physx/compiler/vc15win64 --check-stamp-file C:/Users/evan/src/PhysX4/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/src/PhysX4/physx/compiler/public -BC:/src/PhysX4/physx/compiler/vc15win64 --check-stamp-file C:/src/PhysX4/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -139,12 +139,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">C:/Users/evan/src/PhysX4/physx/samples/compiler/cmake/CMakeLists.txt;C:\Users\evan\src\PhysX4\externals\cmakemodules\ConfigureFileMT.cmake;C:\Users\evan\src\PhysX4\externals\cmakemodules\GetCompilerAndPlatform.cmake;C:\Users\evan\src\PhysX4\externals\cmakemodules\NvidiaBuildOptions.cmake;C:\Users\evan\src\PhysX4\externals\cmakemodules\SetOutputPaths.cmake;C:\Users\evan\src\PhysX4\externals\targa\targa-config-version.cmake;C:\Users\evan\src\PhysX4\externals\targa\targa-config.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\CMakeLists.txt;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SampleBase.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SampleFramework.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SamplePlatform.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SampleRenderer.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\Samples.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SamplesToolkit.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\CMakeLists.txt;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SampleBase.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SampleFramework.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\Samples.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">C:\Users\evan\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">C:\src\PhysX4\externals\cmakemodules\ConfigureFileMT.cmake;C:\src\PhysX4\externals\cmakemodules\GetCompilerAndPlatform.cmake;C:\src\PhysX4\externals\cmakemodules\NvidiaBuildOptions.cmake;C:\src\PhysX4\externals\cmakemodules\SetOutputPaths.cmake;C:\src\PhysX4\externals\targa\targa-config-version.cmake;C:\src\PhysX4\externals\targa\targa-config.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SampleBase.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SampleFramework.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SamplePlatform.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SampleRenderer.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\Samples.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SamplesToolkit.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\CMakeLists.txt;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SampleBase.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SampleFramework.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\Samples.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">C:\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule C:/Users/evan/src/PhysX4/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule C:/src/PhysX4/physx/samples/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
-C:\CMake\bin\cmake.exe -SC:/Users/evan/src/PhysX4/physx/compiler/public -BC:/Users/evan/src/PhysX4/physx/compiler/vc15win64 --check-stamp-file C:/Users/evan/src/PhysX4/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/src/PhysX4/physx/compiler/public -BC:/src/PhysX4/physx/compiler/vc15win64 --check-stamp-file C:/src/PhysX4/physx/compiler/vc15win64/sdk_samples_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -152,55 +152,43 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">C:/Users/evan/src/PhysX4/physx/samples/compiler/cmake/CMakeLists.txt;C:\Users\evan\src\PhysX4\externals\cmakemodules\ConfigureFileMT.cmake;C:\Users\evan\src\PhysX4\externals\cmakemodules\GetCompilerAndPlatform.cmake;C:\Users\evan\src\PhysX4\externals\cmakemodules\NvidiaBuildOptions.cmake;C:\Users\evan\src\PhysX4\externals\cmakemodules\SetOutputPaths.cmake;C:\Users\evan\src\PhysX4\externals\targa\targa-config-version.cmake;C:\Users\evan\src\PhysX4\externals\targa\targa-config.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\CMakeLists.txt;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SampleBase.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SampleFramework.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SamplePlatform.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SampleRenderer.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\Samples.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\SamplesToolkit.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\CMakeLists.txt;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SampleBase.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SampleFramework.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\Samples.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;C:\Users\evan\src\PhysX4\physx\samples\compiler\cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">C:\Users\evan\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">C:\src\PhysX4\externals\cmakemodules\ConfigureFileMT.cmake;C:\src\PhysX4\externals\cmakemodules\GetCompilerAndPlatform.cmake;C:\src\PhysX4\externals\cmakemodules\NvidiaBuildOptions.cmake;C:\src\PhysX4\externals\cmakemodules\SetOutputPaths.cmake;C:\src\PhysX4\externals\targa\targa-config-version.cmake;C:\src\PhysX4\externals\targa\targa-config.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SampleBase.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SampleFramework.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SamplePlatform.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SampleRenderer.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\Samples.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\SamplesToolkit.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\CMakeLists.txt;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SampleBase.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SampleFramework.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\Samples.cmake;C:\src\PhysX4\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">C:\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc15win64\ZERO_CHECK.vcxproj">
-      <Project>{CEB0AFA4-2DAF-3E34-98AD-B22AAACA0481}</Project>
+    <ProjectReference Include="C:\src\PhysX4\physx\compiler\vc15win64\ZERO_CHECK.vcxproj">
+      <Project>{99214F26-FCF8-39CF-BA6B-CA965EE36783}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\SampleBase.vcxproj">
-      <Project>{65D8E96C-BDC7-3B5D-8AF9-B15202F0272C}</Project>
+    <ProjectReference Include="C:\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\SampleBase.vcxproj">
+      <Project>{B067E7E2-693E-3304-AB89-7B5DE77AD2EF}</Project>
       <Name>SampleBase</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\SampleFramework.vcxproj">
-      <Project>{A59923B0-73F2-386E-B62C-0A8016E3648C}</Project>
+    <ProjectReference Include="C:\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\SampleFramework.vcxproj">
+      <Project>{300E37DD-812A-3FCE-9891-9C51EBCE7BDA}</Project>
       <Name>SampleFramework</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\SamplePlatform.vcxproj">
-      <Project>{9C3E84E2-0B07-3334-8F0E-3A163955AA2F}</Project>
+    <ProjectReference Include="C:\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\SamplePlatform.vcxproj">
+      <Project>{1842DDE5-C76C-3FA3-BBA1-C2AC77133F72}</Project>
       <Name>SamplePlatform</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\SampleRenderer.vcxproj">
-      <Project>{87B2F16A-A22E-3E2D-90B4-CA994D71112D}</Project>
+    <ProjectReference Include="C:\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\SampleRenderer.vcxproj">
+      <Project>{B4759392-13FC-3F5E-84D7-CC7BAD6BA5E2}</Project>
       <Name>SampleRenderer</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\SampleToolkit.vcxproj">
-      <Project>{50400AEF-4388-38EE-A4F2-031780D27C39}</Project>
+    <ProjectReference Include="C:\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\SampleToolkit.vcxproj">
+      <Project>{9FDAB253-3FCF-3185-B9F6-55ACCD39AC3E}</Project>
       <Name>SampleToolkit</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\evan\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\Samples.vcxproj">
-      <Project>{26B85DAF-DAA6-354C-9F3B-FF164A9CEBD4}</Project>
+    <ProjectReference Include="C:\src\PhysX4\physx\compiler\vc15win64\sdk_samples_bin\Samples.vcxproj">
+      <Project>{09AB8D66-DF83-3FA8-98F1-BED2382D83F1}</Project>
       <Name>Samples</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
